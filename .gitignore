@@ -1,0 +1,6 @@
+# Proprietary files
+bin/
+
+# Artifacts
+.flatpak-builder/
+.build-dir/

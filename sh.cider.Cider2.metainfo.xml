@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="desktop-application">
+  <name>Cider</name>
+  <id>sh.cider.Cider2</id>
+  <provides>
+    <id>sh.cider.Cider2</id>
+  </provides>
+  <launchable type="desktop-id">sh.cider.Cider2.desktop</launchable>
+  <content_rating type="oars-1.1" />
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <summary>Cider-2 is a cross-platform Apple Music experience</summary>
+  <description>
+    <p>
+      Cider-2 is a modern Apple Music app built using Vue.js, TypeScript, and an Electron/Tauri
+      backend. It provides a sleek and intuitive user interface to enjoy your favorite music from
+      the Apple Music library.
+
+      Note: this is an unofficial repackaging of Cider2 and is not affiliated with the developers.
+    </p>
+  </description>
+  <url type="homepage">https://cider.sh</url>
+  <url type="bugtracker">https://github.com/ciderapp/Cider-2/issues</url>
+  <url type="help">https://discord.com/invite/AppleMusic</url>
+</component>
