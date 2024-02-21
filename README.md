@@ -34,7 +34,7 @@ flatpak --user install app/org.electronjs.Electron2.BaseApp/x86_64/23.08 -y \
 To install system-wide - *requires root and Flathub remote set up for the entire system*
 
 ```sh
-flatpakinstall app/org.electronjs.Electron2.BaseApp/x86_64/23.08 -y \
+flatpak install app/org.electronjs.Electron2.BaseApp/x86_64/23.08 -y \
 && flatpak-builder build-dir --install --force-clean sh.cider.Cider2.yml \
 && flatpak remove app/org.electronjs.Electron2.BaseApp/x86_64/23.08 -y \
 && echo "Cider2 installed successfully."
